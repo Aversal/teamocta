@@ -1,7 +1,8 @@
+<p align="center">
 # Game Developement Projects
 
 ### Veeti Hietala & Jaakko Ylimäki
-
+</p>
 
 ### Markdown
 
