@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Game Developement Projects
+# Veeti Hietala & Jaakko Ylimäki
 
-[Edit here]
-
-ayy lmao
 
 ### Markdown
 
