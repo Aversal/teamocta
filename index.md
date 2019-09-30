@@ -1,5 +1,6 @@
-## Game Developement Projects
-# Veeti Hietala & Jaakko Ylimäki
+# Game Developement Projects
+
+### Veeti Hietala & Jaakko Ylimäki
 
 
 ### Markdown
