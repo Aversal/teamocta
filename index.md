@@ -1,6 +1,6 @@
 <p align="center">
-# Game Developement Projects
-
+<b>#Game Developement Projects</b>
+<br>
 ### Veeti Hietala & Jaakko Ylimäki
 </p>
 
