@@ -1,7 +1,7 @@
 <p align="center">
-<b>#Game Developement Projects</b>
+<b>Game Developement Projects</b>
 <br>
-### Veeti Hietala & Jaakko Ylimäki
+Veeti Hietala & Jaakko Ylimäki
 </p>
 
 ### Markdown
