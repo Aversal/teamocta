@@ -1,15 +1,6 @@
 <head>
   <link rel="stylesheet" type="text/css" href="config.css"/>
   <style type="text/css"> </style>
-  
-  <script>
-  function validateForm() {
-  var x = document.forms["vapaasana"]["sanomasi"].value;
-  if (x == "") {
-    alert("Kirjota nyt edes jotain siihen kenttään");
-    return false;
-  }
- </script>
 }
 </head>
 <html>
@@ -62,8 +53,16 @@
       </td>
       <br><br><br>
       
+  <script>
+  function validateForm() {
+  var x = document.forms["vapaasana"]["sanomasi"].value;
+  if (x == "") {
+    alert("Kirjota nyt edes jotain siihen kenttään");
+    return false;
+  }
+  </script>
   <form name="vapaasana" action="/action_page.php" onsubmit="return validateForm()" method="post">
-  Anna paautetta sivustamme: <input type="text" name="sanomasi">
+  Anna palautetta sivustamme: <input type="text" name="sanomasi">
   <input type="submit" value="Submit">
 </form>
 </body>
