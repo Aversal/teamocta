@@ -4,9 +4,10 @@ h1
 }
 h2
 {
-  margin: center;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 64px;
 }
 img 
 {
@@ -16,7 +17,8 @@ img
 }
 table, th, td 
 {
-  margin: center;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid black;
   border-collapse: collapse;
 }
