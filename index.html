@@ -60,7 +60,6 @@
     return false;
   } else {
     alert("Kiitos vastauksesta lol");
-    document.getElementById("vapaasana").reset();
     return false;
   }
   }
@@ -68,5 +67,10 @@
   <form name="vapaasana" onsubmit="return validateForm()" method="post">
   Äänestä parasta Melee-pelaajaa: <input type="text" name="sanomasi">
   <input type="submit" value="Submit">
-</form>
+  </form>
+      
+  <script>
+  function myFunction() {
+    document.getElementById("vapaasana").reset();
+  }
 </body>
