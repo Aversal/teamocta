@@ -10,8 +10,8 @@ h2
 }
 img
 {
-  width: 64px;
-  height: 64px;
+  width: 32px;
+  height: 32px;
   height: auto;
   background-position: center center;
   background-repeat: no-repeat;
@@ -51,4 +51,8 @@ td
 {
   text-align: center;
   text-alignt: center;
+}
+ul
+{
+  list-style-position: inside;
 }
