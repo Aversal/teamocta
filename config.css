@@ -34,8 +34,7 @@ table, th, td
 }
 table
 {
-  margin-left: center;
-  margin-right: center;
+  table-align: center;
   background: url("https://thumbs.gfycat.com/DecentCornyBuzzard-size_restricted.gif") no-repeat center;
     background-size: cover;
     vertical-align: top;
