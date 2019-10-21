@@ -2,17 +2,25 @@ h1
 {
   color: red;
 }
+h2
+{
+  margin: center;
+  font-weight: bold;
+  font-size: 15px;
+}
 img 
 {
   border-radius: 50%;
   max-width: 64px;
   height: auto;
 }
-table, th, td {
+table, th, td 
+{
   margin: center;
   border: 1px solid black;
   border-collapse: collapse;
 }
-th {
+th 
+{
   font-weight: bold;
 }
