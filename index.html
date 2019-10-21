@@ -22,7 +22,7 @@
     <th>Miksi on hyvä</th>
   <tr>
     <td>Leffen</td>
-    <td><img src="https://pbs.twimg.com/media/D4ty6JMU4AAL4Xr.jpg"></td>
+    <td><img.profile src="https://pbs.twimg.com/media/D4ty6JMU4AAL4Xr.jpg"></td>
     <td><img src="https://i.imgur.com/e6iqFph.png"></td>
     <td>
       <ul>
@@ -55,6 +55,8 @@
   <script>
   function validateForm() {
   var x = document.forms["vapaasana"]["sanomasi"].value;
+  var text;
+  <p id="demo"></p>
   if (x == "") {
     alert("Kirjota nyt edes jotain siihen kenttään");
     return false;
@@ -62,6 +64,7 @@
     text = "Kiitos palautteesta lol";
     return false;
   }
+  document.getElementById("demo").innerHTML = text;
   }
   </script>
   <form name="vapaasana" onsubmit="return validateForm()" method="post">
