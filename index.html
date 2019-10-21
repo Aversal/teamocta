@@ -58,10 +58,13 @@
   if (x == "") {
     alert("Kirjota nyt edes jotain siihen kenttään");
     return false;
+  } else {
+    text = "Kiitos palautteesta lol";
+    return false;
   }
   }
   </script>
-  <form name="vapaasana" action="text = "Kiitos palautteesta lol";" onsubmit="return validateForm()" method="post">
+  <form name="vapaasana" onsubmit="return validateForm()" method="post">
   Anna palautetta sivustamme: <input type="text" name="sanomasi">
   <input type="submit" value="Submit">
 </form>
