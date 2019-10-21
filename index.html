@@ -55,18 +55,17 @@
   <script>
   function validateForm() {
   var x = document.forms["vapaasana"]["sanomasi"].value;
-  var text;
   if (x == "") {
-    alert("Kirjota nyt edes jotain siihen kenttään");
+    alert("Kirjota nyt joku nimi siihen kenttään");
     return false;
   } else {
-    text = "Kiitos palautteesta lol";
+    alert("Kiitos vastauksesta lol");
     return false;
   }
   }
   </script>
   <form name="vapaasana" onsubmit="return validateForm()" method="post">
-  Anna palautetta sivustamme: <input type="text" name="sanomasi">
+  Äänestä parasta Melee-pelaajaa: <input type="text" name="sanomasi">
   <input type="submit" value="Submit">
 </form>
 </body>
