@@ -10,9 +10,9 @@ h2
 }
 img 
 {
-  border-radius: 50%;
-  max-width: 64px;
-  max-height: 64px;
+  /*border-radius: 50%;*/
+  width: 64px;
+  height: 64px;
   height: auto;
   background-position: center center;
   background-repeat: no-repeat;
