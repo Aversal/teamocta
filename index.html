@@ -56,7 +56,6 @@
   function validateForm() {
   var x = document.forms["vapaasana"]["sanomasi"].value;
   var text;
-  <p id="demo"></p>
   if (x == "") {
     alert("Kirjota nyt edes jotain siihen kenttään");
     return false;
@@ -64,7 +63,6 @@
     text = "Kiitos palautteesta lol";
     return false;
   }
-  document.getElementById("demo").innerHTML = text;
   }
   </script>
   <form name="vapaasana" onsubmit="return validateForm()" method="post">
