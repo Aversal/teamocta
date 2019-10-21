@@ -19,13 +19,23 @@ img
 table, th, td 
 {
   font-size: 24px;
-  margin-left: center;
-  margin-right: center;
   border: 1px solid black;
   border-collapse: collapse;
   padding: 20px;
 }
+table
+{
+  margin-left: center;
+  margin-right: center;
+}
 th 
 {
   font-weight: bold;
+  margin-left: center;
+  margin-right: center;
+}
+td
+{
+  margin-left: center;
+  margin-right: center;
 }
