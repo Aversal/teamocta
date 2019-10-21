@@ -8,3 +8,6 @@ img
   max-width: 64px;
   height: auto;
 }
+table, th, td {
+  border: 1px solid black;
+}
