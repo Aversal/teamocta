@@ -32,11 +32,11 @@ table
 th 
 {
   font-weight: bold;
-  margin-left: center;
-  margin-right: center;
+  text-align: center;
+  text-align: center;
 }
 td
 {
-  margin-left: center;
-  margin-right: center;
+  text-align: center;
+  text-alignt: center;
 }
