@@ -19,8 +19,8 @@ img
 .profile
 {
   border-radius: 50%;
-  width: 32px;
-  height: 32px;
+  width: 64px;
+  height: 64px;
   background-position: center center;
   background-repeat: no-repeat;
 }
