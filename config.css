@@ -19,6 +19,7 @@ img
 }
 table, th, td 
 {
+  color: white;
   font-size: 24px;
   border: 1px solid white;
   border-collapse: collapse;
@@ -32,8 +33,6 @@ table
     background-size: cover;
     vertical-align: top;
     background-position: center center;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
 }
 th 
 {
