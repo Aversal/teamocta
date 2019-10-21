@@ -34,7 +34,8 @@ table, th, td
 }
 table
 {
-  table-align: center;
+  margin-left: auto;
+  margin-right: auto;
   background: url("https://thumbs.gfycat.com/DecentCornyBuzzard-size_restricted.gif") no-repeat center;
     background-size: cover;
     vertical-align: top;
@@ -56,5 +57,5 @@ ul
 }
 li
 {
-  display: inline-block;
+  
 }
