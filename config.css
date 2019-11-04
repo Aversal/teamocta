@@ -1,11 +1,12 @@
 body
 {
+  font-family: siteFont;
   background: rgb(9,9,121);
   background: radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(36,65,120,1) 40%, rgba(0,245,255,1) 100%);
 }
 
 @font-face {
-  font-family: headerFont;
+  font-family: siteFont;
   src: url(GIDOLINYA.REGULAR.OTF);
 }
 
@@ -16,7 +17,7 @@ h1
 h2
 {
   text-align: center;
-  font-family: headerFont;
+  font-family: siteFont;
   font-weight: bold;
   font-size: 64px;
 }
