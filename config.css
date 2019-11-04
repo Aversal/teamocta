@@ -6,7 +6,7 @@ body
 
 @font-face {
   font-family: headerFont;
-  src: "GIDOLINYA.REGULAR.OTF";
+  src: url(GIDOLINYA.REGULAR.OTF);
 }
 
 h1 
@@ -49,6 +49,8 @@ button
 
 table, th, td 
 {
+  margin-left: auto;
+  margin-right: auto;
   color: white;
   font-size: 24px;
   border: 1px solid white;
@@ -57,9 +59,9 @@ table, th, td
 }
 table
 {
-  margin-left: auto;
+
+    margin-left: auto;
   margin-right: auto;
-  float: center;
   background: url("https://thumbs.gfycat.com/DecentCornyBuzzard-size_restricted.gif") no-repeat center;
     background-size: cover;
     vertical-align: top;
