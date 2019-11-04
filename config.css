@@ -30,6 +30,11 @@ img
   background-repeat: no-repeat;
 }
 
+.sound
+{
+  float: center;
+}
+
 .map
 {
   float: right;
