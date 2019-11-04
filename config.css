@@ -16,7 +16,7 @@ h1
 h2
 {
   text-align: center;
-  font: 
+  font-family: headerFont;
   font-weight: bold;
   font-size: 64px;
 }
@@ -57,10 +57,12 @@ table, th, td
 }
 table
 {
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
   background: url("https://thumbs.gfycat.com/DecentCornyBuzzard-size_restricted.gif") no-repeat center;
     background-size: cover;
     vertical-align: top;
-  float: center;
     background-position: center center;
 }
 th 
