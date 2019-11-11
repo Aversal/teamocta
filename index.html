@@ -2,20 +2,6 @@
   <link rel="stylesheet" type="text/css" href="config.css"/>
   <style type="text/css"> </style>
 </head>
-<script>
-function allowDrop(ev) {
-  ev.preventDefault();
-}
-
-function drag(ev) {
-  ev.dataTransfer.setData("text", ev.target.id);
-}
-
-function drop(ev) {
-  ev.preventDefault();
-  var data = ev.dataTransfer.getData("text");
-  ev.target.appendChild(document.getElementById(data));
-}
 <html>
 <body>
   
@@ -25,7 +11,7 @@ function drop(ev) {
   
   Tervetuloa kosmoksen kuninkaallisimmalle kotisivulle.
   Meleetä<br>
-  <img src="https://pbs.twimg.com/media/DVOzt6kV4AAA04U.jpg"> <img src="https://www.trzcacak.rs/myfile/full/28-286781_pluckers-wing-bar-on-twitter-chicken-wings-gif.png" draggable="true">
+  <img src="https://pbs.twimg.com/media/DVOzt6kV4AAA04U.jpg"> <img src="https://www.trzcacak.rs/myfile/full/28-286781_pluckers-wing-bar-on-twitter-chicken-wings-gif.png">
   
   <audio id="falcon"class="sound">
      <source src="captain0c.dsp.wav" type="audio/wav">
