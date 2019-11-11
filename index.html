@@ -2,6 +2,21 @@
   <link rel="stylesheet" type="text/css" href="config.css"/>
   <style type="text/css"> </style>
 </head>
+<script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
 <html>
 <body>
   
@@ -11,7 +26,7 @@
   
   Tervetuloa kosmoksen kuninkaallisimmalle kotisivulle.
   Meleetä<br>
-  <img src="https://pbs.twimg.com/media/DVOzt6kV4AAA04U.jpg"> <img src="https://www.trzcacak.rs/myfile/full/28-286781_pluckers-wing-bar-on-twitter-chicken-wings-gif.png">
+  <img src="https://pbs.twimg.com/media/DVOzt6kV4AAA04U.jpg"> <img src="https://www.trzcacak.rs/myfile/full/28-286781_pluckers-wing-bar-on-twitter-chicken-wings-gif.png" draggable="true" ondragstart="drag(event)">
   </br> </br>
 
     <a href="https://www.twitter.com/theaversal/">
@@ -58,7 +73,7 @@
     </td>
   <tr>
     <td>M2K</td>
-    <td><img src="https://pm1.narvii.com/6572/0a307e1aeda27488b9a38288f32488ca9886492a_hq.jpg" class="profile"></td>
+    <td><img src="https://pm1.narvii.com/6572/0a307e1aeda27488b9a38288f32488ca9886492a_hq.jpg" class="profile" ondrop="drop(event)" ondragover="allowDrop(event)"></td>
     <td><img src="https://i.imgur.com/HJT5ZTS.png"><img src="https://i.imgur.com/0TAZZIy.png"></td>
     <td>
       <ul>
