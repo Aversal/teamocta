@@ -30,6 +30,11 @@ img
   background-position: center center;
   background-repeat: no-repeat;
 }
+img2
+{
+  position: absolute;
+  z-index: 1;
+}
 .profile
 {
   border-radius: 50%;
